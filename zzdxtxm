@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>郑州大学数据中台2020</title>
+</head>
+<body>
+	<style>
+	.left{
+	position:absolute;
+	left:130px;
+	top:0px;
+	}
+	</style>
+	<style>
+	.right{
+	position:absolute;
+	right:130px;
+	top:0px;
+	}
+	</style>
+<style>
+		p1.po-left{
+		position:absolute;
+		left:110px;
+		top:158px;
+		}
+	
+	</style>
+	<style>
+		p2.po-left2{
+		position:absolute;
+		left:190px;
+		top:135px;
+		font-size:40px;
+		}
+	
+	</style>
+	<style>
+		p3.po-left3{
+		position:absolute;
+		left:370px;
+		top:158px;
+		}
+	
+	</style>
+	<style>
+		.po-left4{
+		position:absolute;
+		left:470px;
+		top:145px;
+		}
+	
+	</style>
+	<style>
+		.fuhao{
+		position:absolute;
+		right:195px;
+		top:-15px;
+		}
+	
+	</style>
+	<style>
+		.fuhao2{
+		position:absolute;
+		right:115px;
+		top:-15px;
+		}
+	
+	</style>
+	
+<p>
+<img class="left" border="0" src="C:\Users\dell\Desktop/zzdx/xiaohui.png" alt="xiaohui" width="272" height="70">
+    <p class="fuhao">
+		〖
+    </p>	
+<a class="right" href="www.baidu.com"  style="text-decoration:none ">切换账号</a>
+	<p class="fuhao2">
+		〗
+	</p>
+</p>
+
+	<style>
+h1
+{
+		border-bottom-style:solid;
+		border-bottom-color:#DCDCDC;
+}
+</style>
+		<style>
+.bo
+{
+		border-bottom-style:solid;
+		border-bottom-color:#DCDCDC;
+}
+</style>
+<h1 style="text-align:center;color:#3366CC;font-size:70px"><b>郑 州 大 学 通 行 码</b></h1>
+
+
+	<div class="bo">
+<p1 class="po-left">获取时间:</p1>	
+<p2 id="tt" class="po-left2"> </p2>
+<style type="text/css">
+#month{color:#CC0099;font-size:20px}
+#day{color:#FF00FF;}
+#hour{color:#FF00FF;}
+#minute{color:#FF00FF;}
+</style>
+<script>
+var d=new Date()
+var month=d.getMonth()+1
+var day=d.getDate()			
+var hour=d.getHours()
+var minute=d.getMinutes()
+
+alert(document.getElementById("tt").innerHTML="<span id='month'>"+month+"月"+day+"日"+" "+hour+":"+minute+"</span>")					  
+
+														  
+</script>
+											 
+<p3 class="po-left3">有效期剩余</p3>	
+	
+<div id="timer" class="po-left4"></div>
+
+<style type="text/css">
+#time{color:#CC0000 ;font-size:30px;}
+</style>
+<script>
+ var maxtime = 10 * 60; 
+      function CountDown() {
+        if (maxtime >= 0) {
+          minutes = Math.floor(maxtime / 60);
+          seconds = Math.floor(maxtime % 60);
+          msg = minutes + "分" +seconds + "秒";
+          document.all["timer"].innerHTML = "<span id='time'>"+ msg+"</span>";
+            --maxtime;
+        } else{
+          clearInterval(timer);
+          alert("时间到，结束!");
+        }
+      }
+      timer = setInterval("CountDown()", 1000);   
+ </script>
+	</div>
+	<style>
+		.po-left5{
+		position:absolute;
+		left:130px;
+		top:200px;
+		color:blue;
+		}
+	
+	</style>
+	<style>
+		.po-left6{
+		position:absolute;
+		left:130px;
+		top:230px;
+		color:blue;
+		}
+	
+	</style>
+	<style>
+		.po-left7{
+		position:absolute;
+		left:130px;
+		top:260px;
+		color:blue;
+		}
+	
+	</style>
+	<style>
+		.po-left8{
+		position:absolute;
+		left:330px;
+		top:230px;
+		}
+	
+	</style>
+<p class="po-left5">
+教育学院 李驰
+</p>
+<p class="po-left6">
+通行信息：主校区大门东门.
+</p>
+<style type="text/css">
+#myButton{background-color:#009900;border:none;color:#fff;}
+
+</style>
+<p class="po-left8"><button id="myButton" onclick="myFunction()" >入口</button></p>
+
+<script>
+function myFunction() 
+{
+	var obj=document.getElementById("myButton");
+	obj.innerHTML="出口";
+	obj.style.color="#FFFF33"
+	obj.style.background="#C71585"
+	
+}
+
+</script>
+<p class="po-left7">
+出入身份：郑州大学硕士研究生							   
+</p>
+	<style>
+		.po-left9{
+		position:absolute;
+		left:330px;
+		top:280px;
+		}
+	
+	</style>
+<p class="po-left5">
+<p class="po-left9">
+<img border="0" src="C:\Users\dell\Desktop/zzdx/lichi.jpg" alt="lichi” width="1049" height="1101">
+</p>									   
+</body>
+</html>
